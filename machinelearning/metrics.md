@@ -22,3 +22,11 @@ The confusion matrix logs the hits and misses of a machine-learning model. The c
 - **F1 score**: a single metric that combines recall and precision using the harmonic mean.
 
 <center><img src="./img/accuracy.png" width="300px" height="300px"></center>
+
+
+### When to use each evaluation metric?
+
+- The **accuracy** indicates the total performance of the model. It shows the assertiveness of the model in a more general way.
+- The **precision** is used in situations where false positives are more harmful than false negatives in the problem.
+- The **recall** is used in situations where false negatives are more harmful than false positives in the problem.
+- The **F1-Score** is a harmonic mean between precision and recall.
